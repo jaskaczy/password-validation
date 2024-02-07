@@ -23,8 +23,8 @@ const checkPassword = ()=>{
     if(pass.value !==''){
         checkPass()
     } else {
-        p.textContent ='u didnt typed a password'
-        p.style.color ='tomato'
+        p.textContent ='You didnt enter your password...'
+        p.style.color =''
     }
 }
-pass.addEventListener('keyup',checkPass)
+pass.addEventListener('keyup',checkPassword)
