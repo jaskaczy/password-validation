@@ -19,4 +19,12 @@ const checkPass =()=>{
         p.style.color='brown'
     }
 }
+const checkPassword = ()=>{
+    if(pass.value !==''){
+        checkPass()
+    } else {
+        p.textContent ='u didnt typed a password'
+        p.style.color ='tomato'
+    }
+}
 pass.addEventListener('keyup',checkPass)
